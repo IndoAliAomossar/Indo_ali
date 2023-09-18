@@ -19,6 +19,8 @@ body > div:nth-child(1){
 
 div.textos{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     letter-spacing: 2px;
     position: absolute;
@@ -26,10 +28,11 @@ div.textos{
     left: 50%;
     transform: translate(-50%);
     overflow: hidden;
+    width: 100%;
 }
 
 .texto{
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .aomossar{
